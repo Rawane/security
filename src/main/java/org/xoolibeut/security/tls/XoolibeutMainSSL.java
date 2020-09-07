@@ -14,8 +14,8 @@ import org.slf4j.LoggerFactory;
 
 import ch.qos.logback.classic.Level;
 
-public class AcossMainSSL {
-	private static final Logger LOGGER = LoggerFactory.getLogger(AcossMainSSL.class);
+public class XoolibeutMainSSL {
+	private static final Logger LOGGER = LoggerFactory.getLogger(XoolibeutMainSSL.class);
 
 	public static void main(String[] args) {
 		String urlTest = "https://google.fr";
@@ -160,7 +160,7 @@ public class AcossMainSSL {
 	private static Properties readApplicationProperties() {
 		Properties prop = new Properties();
 		InputStream is = null;
-		is = AcossMainSSL.class.getResourceAsStream("/application.properties");
+		is = XoolibeutMainSSL.class.getResourceAsStream("/application.properties");
 		try {
 			prop.load(is);
 		} catch (IOException e) {

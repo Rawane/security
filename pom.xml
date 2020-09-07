@@ -28,7 +28,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>org.xoolibeut.security.tls.AcossMainSSL</mainClass>
+							<mainClass>org.xoolibeut.security.tls.XoolibeutMainSSL</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
