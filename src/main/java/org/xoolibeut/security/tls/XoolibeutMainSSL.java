@@ -58,14 +58,14 @@ public class XoolibeutMainSSL {
 								LOGGER.debug("cipher yess " + ciphers[j] + " rang " + j);
 							} catch (Exception e) {
 								e.printStackTrace();
-								LOGGER.debug("Cipher not woork " + ciphers[j] + " rang " + j);
+								LOGGER.debug("Cipher not work " + ciphers[j] + " rang " + j);
 								mapCipher.put(ciphers[j], "ko");
 							}
 							mapProtocole.put(protocols[i], mapCipher);
 						}
 					} catch (Exception e) {
 
-						LOGGER.debug("Protocol not woork " + protocols[i]);
+						LOGGER.debug("Protocol or cipher not work " + protocols[i]);
 					}
 				}
 			}
