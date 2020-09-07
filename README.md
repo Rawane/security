@@ -5,8 +5,9 @@ application.properties
 Vous pouvez éxécuter la classe main du Projet maven ou org.xoolibeut.security.tls.XoolibeutMainSSL
 ou générer le jar et lancer la commande avec le serveur à vérifier et le niveau de log
 java -jar tsl-check.jar google.fr DEBUG
-Exemple d'appel:
+Exemple de commande :
 java org.xoolibeut.security.tls.XoolibeutMainSSL google.fr INFO
+
 Résultat 
 2020-09-07 21:38:58,889 [main] INFO  o.x.security.tls.XoolibeutMainSSL - Résumé scan ssl/tls 
 2020-09-07 21:38:58,889 [main] INFO  o.x.security.tls.XoolibeutMainSSL - 
