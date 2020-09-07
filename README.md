@@ -9,12 +9,12 @@ Exemple de commande :
 java org.xoolibeut.security.tls.XoolibeutMainSSL google.fr INFO
 
 Résultat 
-2020-09-07 21:38:58,889 [main] INFO  o.x.security.tls.XoolibeutMainSSL - Résumé scan ssl/tls 
-2020-09-07 21:38:58,889 [main] INFO  o.x.security.tls.XoolibeutMainSSL - 
-2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - Protocol TLSv1
-2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
-2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - TLS_RSA_WITH_AES_128_CBC_SHA
-2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - 
+ 2020-09-07 21:38:58,889 [main] INFO  o.x.security.tls.XoolibeutMainSSL - Résumé scan ssl/tls 
+ 2020-09-07 21:38:58,889 [main] INFO  o.x.security.tls.XoolibeutMainSSL - 
+ 2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - Protocol TLSv1
+ 2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+ 2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - TLS_RSA_WITH_AES_128_CBC_SHA
+ 2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - 
 2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - Protocol TLSv1.2
 2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - TLS_RSA_WITH_AES_128_CBC_SHA256
 2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - TLS_RSA_WITH_AES_128_GCM_SHA256
