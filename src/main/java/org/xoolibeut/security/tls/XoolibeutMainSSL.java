@@ -128,6 +128,7 @@ public class XoolibeutMainSSL {
 			}
 
 		}
+		LOGGER.info("Résumé scan ssl/tls ");
 		Iterator<String> iteratorProtocol = mapProtocole.keySet().iterator();
 		while (iteratorProtocol.hasNext()) {
 			String key = iteratorProtocol.next();
