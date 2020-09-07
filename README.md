@@ -1,13 +1,13 @@
 # security
-# Permet de vérifier les protocoles et ciphers disponibles sur un serveur passé en paramètre
-# si vous avez un proxy,vous pouvez renseigner les informations dans le fichier de properties
-# application.properties
-# Vous pouvez éxécuter la classe main du Projet maven ou org.xoolibeut.security.tls.XoolibeutMainSSL
-# ou générer le jar et lancer la commande avec le serveur à vérifier et le niveau de log
-# java -jar tsl-check.jar google.fr DEBUG
-# Exemple d'appel:
-# java org.xoolibeut.security.tls.XoolibeutMainSSL google.fr INFO
-# Résultat 
+Permet de vérifier les protocoles et ciphers disponibles sur un serveur passé en paramètre
+si vous avez un proxy,vous pouvez renseigner les informations dans le fichier de properties
+application.properties
+Vous pouvez éxécuter la classe main du Projet maven ou org.xoolibeut.security.tls.XoolibeutMainSSL
+ou générer le jar et lancer la commande avec le serveur à vérifier et le niveau de log
+java -jar tsl-check.jar google.fr DEBUG
+Exemple d'appel:
+java org.xoolibeut.security.tls.XoolibeutMainSSL google.fr INFO
+Résultat 
 2020-09-07 21:38:58,889 [main] INFO  o.x.security.tls.XoolibeutMainSSL - Résumé scan ssl/tls 
 2020-09-07 21:38:58,889 [main] INFO  o.x.security.tls.XoolibeutMainSSL - 
 2020-09-07 21:38:58,890 [main] INFO  o.x.security.tls.XoolibeutMainSSL - Protocol TLSv1
